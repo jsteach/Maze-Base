@@ -1,0 +1,8 @@
+# Nob artifacts
+build/
+Deployment/
+nob
+nob.old
+nob.exe
+nob.pdb
+nob.exe.old
