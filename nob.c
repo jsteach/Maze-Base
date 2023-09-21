@@ -68,7 +68,8 @@ bool build_game(Config config)
             }
             nob_cmd_append(&cmd,
                 "./src/main.c",
-                "./src/entrypoint.c"
+                "./src/entrypoint.c",
+                "./src/game.c"
             );
             nob_cmd_append(&cmd, "-o", "./Deployment/game.exe");
             if (!nob_cmd_run_sync(cmd)) nob_return_defer(false);
